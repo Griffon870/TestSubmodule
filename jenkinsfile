@@ -1,0 +1,32 @@
+pipeline {
+    agent any
+    stages {
+		stage('neco v submodulu01') {
+            steps {
+                script {
+					echo "-----------------------------------------------"
+                    echo "---verze jenkinsfile:"
+					echo "------------------------------------------------"
+                }
+            }
+        }
+		
+		stage('neco v submodulu02') {
+            steps {
+                script {
+					echo "aohojjojsadsad dsa asdas dsad asd"
+                }
+            }
+        }
+		
+		stage('neco v submodulu03') {
+            steps {
+                script {
+					echo " asda dsada da dsad sad"
+                }
+            }
+        }
+	
+       
+    }
+}
